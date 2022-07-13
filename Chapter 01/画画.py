@@ -1,5 +1,4 @@
-from turtle import *
-turtle.hideturtle()
+import turtle
 turtle.showturtle()
 turtle.write("welcome to python")
 turtle.forward(100)
