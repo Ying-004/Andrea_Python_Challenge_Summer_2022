@@ -5,3 +5,4 @@ turtle.goto(50,-50)
 turtle.pendown()
 turtle.color("red")
 turtle.circle(50)#Draw a circle with radius 50
+turtle.done()
