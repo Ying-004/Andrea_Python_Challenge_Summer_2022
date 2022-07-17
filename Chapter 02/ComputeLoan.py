@@ -10,4 +10,11 @@ numberOfYears = eval(input(
 
 # Enter loan amount
 loanAmount = eval(input("Enter loan amount, e.g.,120000.95:"))
+# Calculatepayment
+monthlyPayment= loanAmount * monthlyInterestRate / (1
+        - 1 /(1 + monthlyInterestRate ) ** (numberOfYears * 12))
+totalPayment = monthlyPayment * numberOfYears * 12
 
+# Display results
+print("The monthly payment is", int(monthlyPayment * 100)/100)
+print("The total payment is",int(totalPayment * 100)/100)
