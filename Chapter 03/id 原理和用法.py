@@ -13,3 +13,4 @@ id(s)
 36201472
 tyoe(s)
 <class 'str'>
+# not done yet
