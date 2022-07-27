@@ -65,4 +65,4 @@ question1 = "Is your birthday in Set2?\n" + \
 answer = eval(input(question4))
 if answer == 1:
     day += 16
-    print("\nYour birthday is "+ str(day) + "!")
+    print("\nYour birthday is "+ str(day) + "!") # display the answer
