@@ -3,8 +3,8 @@ number = 0
 
 while number < 20:
     number += 1
-    sum += numberif sum >= 100:
-    is sum >= 100:
+    sum += number
+    if sum >= 100:
          break
 
 print("The number is", number)
