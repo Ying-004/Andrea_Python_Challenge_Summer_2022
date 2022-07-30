@@ -1,5 +1,9 @@
 # Print grade for the score
 def getGrade(score):
+    if score < 0 or score > 100:
+        print("Invalid score")
+        return  # Same as return None
+
     if score >= 90.0:
         return'A'
     elif score >= 80.0:
