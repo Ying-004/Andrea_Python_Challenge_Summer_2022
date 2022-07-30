@@ -5,7 +5,7 @@ number = 2  # A number to be tested for primeness
 
 print("The first 50 prime numbers are")
 
-# Reapeatedly find prime numbers
+# Repeatedly find prime numbers
 while count < NUMBER_OF_PRIMES:
     # Assume the number is prime
     isPrime = True  # Is the current nuber prime?
