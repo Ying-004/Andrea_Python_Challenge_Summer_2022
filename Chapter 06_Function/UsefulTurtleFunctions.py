@@ -2,7 +2,7 @@ import turtle
 # Draw a line from (x1, y1) (x2, y2)
 def drawLine(x1, y1, x2, y2):
     turtle.penup()
-    turtle.gpto(x1, y1)
+    turtle.goto(x1, y1)
     turtle.pendown()
     turtle.goto(x2, y2)
 
@@ -39,5 +39,8 @@ def drawRectangle(x = 0, y = 0, width = 10, height = 10):
     turtle.right(90)
     turtle.forward(width)
     turtle.right(90)
+    turtle.forward(height)
+    turtle.right(90)
     turtle.forward(width)
+
 
