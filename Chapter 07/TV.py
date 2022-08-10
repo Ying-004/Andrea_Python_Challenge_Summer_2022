@@ -1,6 +1,6 @@
-class TV
+class TV:
     def __init__(self):
-        self,channel = 1 # Default channel is 1
+        self.channel = 1 # Default channel is 1
         self.volumeLevel = 1 # Default volume level is 1
         self.on = False # Initially, TV is off
 
@@ -11,19 +11,19 @@ class TV
         self.on = False
 
     def getChannel(self):
-        return self.channel()
+        return self.channel
 
     def setChannel(self, channel):
         if self.on and 1 <= self.channel <= 120:
-            self.channel =channel
+            self.channel = channel
 
     def getVolumeLevel(self):
         return self.volumeLevel
 
-    def setVolimeLevel(self):
+    def setVolume(self, volumeLevel):
         if self.on and \
             1 <= self.volumeLevel <= 7:
-           self.volumeLevel = volumeLevel
+            self.volumeLevel = volumeLevel
 
     def channelUp(self):
         if self.on and self.channel < 120:
