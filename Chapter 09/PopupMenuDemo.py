@@ -22,7 +22,7 @@ class PopupMenuDemo:
         self.canvas.pack()
 
         # Bind popup to canvas
-        self.canvas.bind("<Button-3>", self.popup)
+        self.canvas.bind("<Button-1>", self.popup)
 
         window.mainloop()  # Create an event loop
 
