@@ -15,7 +15,7 @@ class ProcessButtonEvent:
     def processOK(self):
         print("OK button is clicked")
 
-    def processCancel(selfself):
+    def processCancel(self):
         print("Cancel button is clicked")
 
 ProcessButtonEvent()    #   Create an object to invoke __init__ method
