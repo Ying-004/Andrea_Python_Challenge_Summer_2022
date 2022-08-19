@@ -41,4 +41,5 @@ class SudokuGUI:
                                             "The solution is invalid")
 
 SudokuGUI()  # Create GUI
+#
 
