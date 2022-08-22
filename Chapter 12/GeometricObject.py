@@ -18,3 +18,4 @@ class GeometricObject:
     def __str__(self):
         return "color: " + self.__color +\
             " and filled: " + str(self.__filled)
+
