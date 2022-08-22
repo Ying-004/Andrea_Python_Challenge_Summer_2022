@@ -13,7 +13,7 @@ class Circle(GeometricObject):
         self.__radius = radius
 
     def getArea(self):
-         return self.__radius * self.__raidus * math.pi
+         return self.__radius * self.__radius * math.pi
 
     def getDiameter(self):
         return 2 * self.__radius
