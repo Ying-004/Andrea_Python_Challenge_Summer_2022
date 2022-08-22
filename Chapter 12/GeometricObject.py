@@ -15,6 +15,6 @@ class GeometricObject:
     def setFilled(self, filled):
         self.__filled = filled
 
-    def __Str__(self):
+    def __str__(self):
         return "color: " + self.__color +\
             " and filled: " + str(self.__filled)
