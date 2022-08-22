@@ -16,7 +16,7 @@ def displayObject(g):
     print("Perimeter is", g.getPerimeter())
 
     if isinstance(g, Circle):
-        print("Diameter is", g.getDiameter)
+        print("Diameter is", g.getDiameter())
     elif isinstance(g, Rectangle):
         print("Width is", g.getWidth())
         print("Height is", g.getHeight())
