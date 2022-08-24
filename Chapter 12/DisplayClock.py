@@ -14,7 +14,7 @@ class DisplayClock:
         Label(frame, text = "Hour: ").pack(side = LEFT)
         self.hour = IntVar()
         self.hour.set(self.clock.getHour())
-        Entry(frame, textvariable = self.hoour,
+        Entry(frame, textvariable = self.hour,
               width = 2).pack(side = LEFT)
         Label(frame, text = "Minute: ").pack(side = LEFT)
         self.minute = IntVar()
